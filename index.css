@@ -1,0 +1,2588 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0px;
+}
+@media(max-width:600px){
+     span img{
+        width: 130px;
+        height: 50px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 2px 2px 3px rgb(11, 11, 11);
+}
+@media(max-width:600px){
+    .navbar{
+        width: 570px;
+        height: 50px;
+        padding: 15px;
+    }
+}
+.sp input{
+    color: black;
+    height: 40px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    box-shadow:  1px 1px 1px rgba(rgb(11, 11, 11));
+    border-radius: 20px;
+    border-color:#E9E9E9;
+
+}
+@media (max-width:600px){
+    .sp input{
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        left: 150px ;
+        bottom: 20px;
+        font-size: 10px;
+    }
+}
+.search img{
+    position: relative;
+    left: 20px;
+    width: 30px;
+    height: 28px ;
+
+}
+@media (max-width:600px){
+    .search img{
+        position: absolute;
+        left: 220px;
+        bottom: 25px;
+    }
+}
+.icon{
+    width: 50px;
+    height: 50px ;
+    border-radius: 55%;
+    background-color:white;
+    margin-right: 200px; 
+
+}
+@media(max-width:600px){
+    .icon{
+        position: absolute;
+        left: 260px;
+        bottom: 20px;
+        height: 40px;
+        width: 40px;
+    }
+}
+.icon:hover{
+    background-color: #E9E9E9;
+}
+@media(max-width:600px){
+    .icon:hover{
+        background-color: #E5E5E5;
+    }
+}
+.icon img{
+    position: relative;
+    top: 10px;
+    left: 4px;
+}
+@media(max-width:600px){
+    .icon img{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        bottom: 2px;
+    }
+}
+.create {
+    height: 30px;
+    width: 90px;
+    background-color: #F2F2F2;
+    position: relative;
+    left: 20px;
+    border-radius: 20px;
+}
+@media(max-width:600px){
+    .create{
+        height: 25px;
+        width: 65px;
+        position: absolute;
+        left: 320px;
+        top: 29px;
+    
+    }
+
+}
+.create p{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+}
+@media(max-width:600px){
+    .create p{
+        font-size: 10px;
+        left: 6px;
+        bottom: 4px;
+    }
+}
+.create:hover{
+    background-color:#E5E5E5;
+    
+}
+.no{
+    margin-right: 50px;
+}
+@media(max-width:600px){
+    .no{
+        position: absolute;
+        width: 120px;
+        height:50px;
+        left: 380px;
+        top: 20px;
+    }
+}
+.home{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #E5E5E5;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 40px; 
+    font-size: 13px;
+    font-style: normal;
+
+}
+.home img{
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+.home:hover{
+    background-color: #E5E5E5;
+}
+.shorts{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.shorts img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.shorts a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 32px; 
+    bottom: 5px;
+    font-size: 13px;
+    font-style: normal;
+
+}
+.shorts:hover{
+    background-color: #E5E5E5;
+}
+.sub{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.sub img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.sub a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 32px; 
+    bottom: 5px;
+    font-size: 13px;
+    font-style: normal;
+}
+.sub:hover{
+    background-color: #E5E5E5;
+}
+.first{
+    width: 200px;
+    height: 130px;
+    box-shadow:1px 1px 1px rgb(178, 178, 178);
+}
+.you {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.you a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10px; 
+    top: 7px;
+    bottom: 5px;
+    font-size: 14px;
+}
+.you:hover{
+    background-color: #E5E5E5;
+}
+.history{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.history img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.history a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 32px; 
+    bottom: 5px;
+    font-size: 13px;
+    font-style: normal;
+}
+.history:hover{
+    background-color: #E5E5E5;
+}
+.play{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.play img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.play a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 32px; 
+    bottom: 5px;
+    font-size: 13px;
+    font-style: normal;
+}
+.play:hover{
+    background-color: #E5E5E5;
+}
+.video{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.video img{
+    position: relative;
+    top: 5px;
+    left: 7px;
+
+}
+.video a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 5px;
+    font-size: 13px;
+    font-style: normal;
+}
+.video:hover{
+    background-color: #E5E5E5;
+}
+.later{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.later img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.later a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 5px;
+    font-size: 13px;
+    font-style: normal;
+}
+.later:hover{
+    background-color: #E5E5E5;
+}
+.liked{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+.liked img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.liked a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.liked:hover{
+    background-color: #E5E5E5;
+}
+.second{
+    width: 200px;
+    height: 240px;
+    box-shadow:1px 1px 1px rgb(178, 178, 178);
+    
+}
+.subs{
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.op{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+}
+.op img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.op a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.op:hover{
+    background-color: #E5E5E5;
+}
+.har{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+}
+.har img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.har a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.har:hover{
+    background-color: #E5E5E5;
+}
+.rat{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+}
+.rat img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.rat a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.rat:hover{
+    background-color: #E5E5E5;
+}
+.sam{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+}
+.sam img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.sam a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.sam:hover{
+    background-color: #E5E5E5;
+}
+.more{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.more img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.more a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.more:hover{
+    background-color: #E5E5E5;
+}
+
+.third{
+    width: 200px;
+    height: 250px;
+    box-shadow:1px 1px 1px rgb(178, 178, 178);
+}
+.ex{
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.trend{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.trend img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.trend a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.trend:hover{
+    background-color: #E5E5E5;
+}
+.shop{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.shop img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.shop a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.shop:hover{
+    background-color: #E5E5E5;
+}
+.music{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.music img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.music a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: px;
+    font-size: 13px;
+    font-style: normal;
+}
+.music:hover{
+    background-color: #E5E5E5;
+}
+.live{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.live img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.live a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    font-size: 13px;
+    font-style: normal;
+}
+.live:hover{
+    background-color: #E5E5E5;
+}
+.game{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.game img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.game a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.game:hover{
+    background-color: #E5E5E5;
+}
+.news{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.news img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.news a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.news:hover{
+    background-color: #E5E5E5;
+}
+.sport{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.sport img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.sport a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.sport:hover{
+    background-color: #E5E5E5;
+}
+.course{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.course img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.course a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.course:hover{
+    background-color: #E5E5E5;
+}
+.fashion{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.fashion img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.fashion a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.fashion:hover{
+    background-color: #E5E5E5;
+}
+.podcast{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.podcast img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.podcast a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.podcast:hover{
+    background-color: #E5E5E5;
+}
+.four{
+    width: 200px;
+    height: 450px;
+    box-shadow:1px 1px 1px rgb(178, 178, 178);
+}
+.yout{
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.pre{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.pre img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.pre a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.pre:hover{
+    background-color: #E5E5E5;
+}
+.std{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.std img{
+    position: relative;
+    top: 5px;
+    left: 7px;
+
+}
+.std a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.std:hover{
+    background-color: #E5E5E5;
+}
+.yomu{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.yomu img{
+    position: relative;
+    top: 5px;
+    left: 12px;
+
+}
+.yomu a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.yomu:hover{
+    background-color: #E5E5E5;
+}
+.kid{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 27px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.kid img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+
+}
+.kid a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px; 
+    bottom: 4px;
+    font-size: 13px;
+    font-style: normal;
+}
+.kid:hover{
+    background-color: #E5E5E5;
+}
+.five{
+    width: 200px;
+    height: 250px;
+    box-shadow:1px 1px 1px rgb(178, 178, 178);
+}
+@media(max-width:600px){
+    body{
+        height: 200px;
+        width: 200px;
+    }
+}
+.all{
+    width: 40px;
+    height: 25px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom:620px ;
+    left: 250px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.all a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+.shark{
+    width: 100px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left: 300px;
+}
+.shark a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+.shark:hover{
+    color: white;
+    background-color: black;
+}
+.shark a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .shark{
+        position: absolute;
+        top: 100px;
+    }
+}
+@media(max-width:600px){
+    .all{
+        position: absolute;
+        top: 100px;
+    }
+}
+.mu{
+    width: 60px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left: 410px;
+}
+.mu a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+.mu:hover{
+    color: white;
+    background-color: black;
+}
+.mu a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .mu{
+        position: absolute;
+        top: 100px;
+    }
+}
+.res{
+    width: 100px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left: 485px;
+}
+.res a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 18px;
+    top: 4px;
+}
+.res:hover{
+    color: white;
+    background-color: black;
+}
+.res a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .res{
+        position: absolute;
+        top: 100px;
+    }
+}
+.games{
+    width:80px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left:600px;
+}
+.games a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.games:hover{
+    color: white;
+    background-color: black;
+}
+.games a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .games{
+        position: absolute;
+        top: 100px;
+    }
+}
+.spo{
+    width: 80px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left: 700px;
+}
+.spo a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.spo:hover{
+    color: white;
+    background-color: black;
+}
+.spo a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .spo{
+        position: absolute;
+        top: 100px;
+    }
+}
+.new{
+    width:80px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left:600px;
+}
+.new a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.new:hover{
+    color: white;
+    background-color: black;
+}
+.new a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .new{
+        position: absolute;
+        top: 100px;
+    }
+}
+.po{
+    width:80px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left:800px;
+}
+.po a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 15px;
+    top: 4px;
+}
+.po:hover{
+    color: white;
+    background-color: black;
+}
+.po a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .po{
+        position: absolute;
+        top: 100px;
+    }
+}
+.ipl{
+    width:170px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left:900px;
+}
+.ipl a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.ipl:hover{
+    color: white;
+    background-color: black;
+}
+.ipl a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .ipl{
+        position: absolute;
+        top: 100px;
+    }
+}
+.comedy{
+    width:80px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left:1100px;
+}
+.comedy a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 15px;
+    top: 4px;
+}
+.comedy:hover{
+    color: white;
+    background-color: black;
+}
+.comedy a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .comedy{
+        position: absolute;
+        top: 100px;
+    }
+}
+.recent{
+    width:130px;
+    height: 25px;
+    background-color:#F2F2F2;
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 620px;
+    left:1200px;
+}
+.recent a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.recent:hover{
+    color: white;
+    background-color: black;
+}
+.recent a:hover{
+    color: white;
+}
+@media(max-width:600px){
+    .recent{
+        position: absolute;
+        top: 100px;
+    }
+}
+.feed{
+    font-size: 13px;
+    position: absolute;
+    bottom: 628px;
+    left:1347px;
+}
+.feed a{
+    text-decoration: none;
+    color: rgb(40, 82, 173);
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.feed a:hover{
+    color: rgb(8, 8, 8);
+}
+@media(max-width:600px){
+    .feed{
+        position: absolute;
+        top: 100px;
+    }
+}
+.spons{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 160px;
+    left:240px;
+}
+@media(max-width:600px)
+{
+    .spons{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        right: 1000px;
+    }
+}
+.spons img{
+    width: 380px;
+    height: 240px;
+    position: relative;
+    left: 0px;
+    box-shadow:  1px 1px 1px rgb(178, 178, 178);
+}
+@media(max-width:600px)
+{
+    .spons img{
+        width: 300px;
+        height: 150px;
+        position: relative;
+        right: 500px;
+        bottom: 20px;
+        
+    }
+
+}
+.spons a{
+    text-decoration: none;
+    color: black;
+}
+.spons b{
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+}
+@media(max-width:600px){
+    .spons b{
+        font-size: 12px;
+        position: absolute;
+        top: 130px;
+        
+    }
+}
+.spons p{
+    font-size: 12px;
+    color: #747373;
+}
+@media(max-width:600px){
+    .spons p{
+        font-size: 12px;
+        position: absolute;
+        top: 140px;
+        
+    }
+}
+.dot{
+    width: 50px;
+    height: 50px ;
+    border-radius: 55%;
+    background-color:white;
+    position: relative;
+    left: 580px;
+    bottom: 995px;
+
+}
+@media(max-width:700px){
+    .dot {
+        position:absolute;
+        left: 450px;
+        top: 292px;
+        width: 50px;
+        height: 50px;
+    }
+}
+.dot img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 7px;
+    top: 8px;
+}
+
+.dot:hover{
+    background-color: #E5E5E5;
+}
+.bo b{
+    position: absolute;
+    top: 290px;
+}
+@media(max-width:700px){
+    .bo b{
+        position:absolute;
+        top: 170px;
+        width: 50px;
+        height: 50px;
+    }
+}
+.dot p{
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    right: 270px;
+    color: #747373;
+}
+@media(max-width:600px){
+    .dot p {
+        position:absolute;
+        top: 27px;
+        right: 154px;
+    
+        
+    }
+}
+.ta img{
+    width: 380px;
+    height: 240px;
+    position: absolute;
+    bottom: 330px;
+    left: 650px;
+    box-shadow:  1px 1px 1px rgb(178, 178, 178);
+}
+@media(max-width:600px)
+{
+    .ta img{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        bottom: 180px;
+        left: 230px;
+        
+    }
+
+}
+.ta a{ 
+    text-decoration: none;
+    color: black;
+}
+.ta2 a{
+    text-decoration: none;
+    color: black;
+} 
+
+ .ta b{
+    font-size: 12px;
+    position: absolute;
+    top: 410px;
+    left: 690px;
+ }
+ .ta2 b{
+    font-size: 12px;
+    position: absolute;
+    top: 428px;
+    left: 712px;
+ }
+ 
+@media(max-width:600px){
+    .ta b {
+        position:absolute;
+        top: 540px;
+        left: 260px;
+        font-size: 9px;
+    
+        
+    }
+}
+@media(max-width:600px){
+    .ta2 b{
+        position:absolute;
+        top: 556px;
+        left: 260px;
+        font-size: 9px;
+    
+        
+    }
+}
+.ta3 p{
+    font-size: 11px;
+    position: absolute;
+    color: #747373;
+    top: 440px;
+    left: 690px;
+ }
+ @media(max-width:600px){
+    .ta3 p{
+        position:absolute;
+        top: 560px;
+        left: 255px;
+        font-size: 9px;
+    
+        
+    }
+}
+
+.i img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 290px;
+    left: 650px;
+}
+@media(max-width:600px){
+    .i img {
+        position:absolute;
+        top: 542px;
+        left: 230px;
+        width: 20px;
+        height: 20px;
+    
+        
+    }
+}
+.dooot{
+    width: 40px;
+    height: 40px ;
+    border-radius: 55%;
+    background-color:white;
+    position: absolute;
+    left: 980px;
+    top: 405px;
+
+}
+.dooot img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+.dooot:hover{
+    background-color: #E5E5E5;
+}
+@media(max-width:600px){
+    .dooot {
+        position:absolute;
+        top: 540px;
+        left: 500px;
+        font-size: 11px;
+        height: 35px;
+        width: 35px;    
+    }
+}
+@media(max-width:600px){
+    .dooot img{
+        width: 20px;
+        height: 20px;
+    
+        
+    }
+}
+.poo img{
+    width: 380px;
+    height: 240px;
+    position: absolute;
+    bottom: 330px;
+    left: 1100px;
+    box-shadow:  1px 1px 1px rgb(178, 178, 178);
+}
+@media(max-width:600px)
+{
+    .poo img{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        top: 600px;
+        left: 230px;
+        
+    }
+
+
+}
+.poo a{
+    text-decoration: none;
+    color: black;
+
+}
+.poo b{
+        font-size: 12px;
+        position: absolute;
+        top: 415px;
+        left: 1150px;
+     
+} 
+@media(max-width:600px){
+    .poo b {
+        position:absolute;
+        top: 760px;
+        left: 260px;
+        font-size: 10px;
+    
+        
+    }
+}
+.poo p{
+    font-size: 11px;
+    position: absolute;
+    color: #747373;
+    top: 440px;
+    left: 1150px;
+ }
+ @media(max-width:600px){
+    .poo p {
+                position:absolute;
+                top: 778px;
+                left: 260px;
+                font-size: 9px;
+            
+                
+            }
+        }
+ .poo1{
+    width: 40px;
+    height: 40px ;
+    border-radius: 55%;
+    background-color:white;
+    position: absolute;
+    left: 1420px;
+    top: 405px;
+
+}
+.poo1 img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 3px;
+    top: 7px;
+}
+.poo1:hover{
+    background-color: #E5E5E5;
+}
+@media(max-width:600px){
+    .poo1 {
+        position:absolute;
+        top: 755px;
+        left: 480px;
+        font-size: 11px;
+        height: 35px;
+        width: 35px;    
+    }
+}
+    @media(max-width:600px){
+        .poo1 img {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 1px;
+           
+        }
+    }
+    .poo2 img{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 410px;
+        left: 1100px;
+    }
+    @media(max-width:600px){
+        .poo2 img {
+            position:absolute;
+            top: 760px;
+            left: 230px;
+            width: 20px;
+            height: 20px;
+        
+            
+        }
+    }
+    .rin img{
+     width: 380px;
+    height: 240px;
+    position: absolute;
+    bottom: 20px;
+    left: 230px;
+    box-shadow:  1px 1px 1px rgb(178, 178, 178);
+}
+@media(max-width:600px)
+{
+    .rin img{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        top: 820px;
+        left: 230px;
+        
+    }
+}
+.rin a{
+    text-decoration: none;
+    color: black;
+}
+.rin b{
+    font-size: 12px;
+    position: absolute;
+    top: 715px;
+    left: 270px;
+ 
+}
+@media(max-width:600px){
+    .rin b {
+        position:absolute;
+        top: 980px;
+        left: 260px;
+        font-size: 10px;   
+    }
+}
+.rin p{
+    font-size: 11px;
+    position: absolute;
+    color: #747373;
+    top: 740px;
+    left: 270px;
+ }
+ @media(max-width:600px){
+    .rin p {
+                position:absolute;
+                top: 1000px;
+                left: 260px;
+                font-size: 9px;
+            
+                
+            }
+        }
+        .ku img{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 715px;
+            left: 225px;
+        }
+        @media(max-width:600px){
+            .ku img {
+                position:absolute;
+                top: 980px;
+                left: 230px;
+                width: 20px;
+                height: 20px;
+            }   
+            }
+            .bnn{
+                width: 40px;
+                height: 40px ;
+                border-radius: 55%;
+                background-color:rgb(246, 240, 240);
+                position: absolute;
+                left: 570px;
+                top: 710px;
+            
+            }
+            .bnn img{
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                left: 3px;
+                top: 7px;
+            }
+            .bnn:hover{
+                background-color: #E5E5E5;
+            }
+            @media(max-width:600px){
+                .bnn {
+                    position:absolute;
+                    top: 975px;
+                    left: 500px;
+                    font-size: 11px;
+                    height: 35px;
+                    width: 35px;    
+                }
+            }  
+            @media(max-width:600px){
+                .bnn img{
+                    width: 20px;
+                    height: 20px;
+                }
+                
+                }
+                .main img{
+                    width: 380px;
+                   height: 240px;
+                   position: absolute;
+                   bottom: 10px;
+                   left: 670px;
+                   box-shadow:  1px 1px 1px rgb(178, 178, 178);
+               }
+               @media(max-width:600px)
+               {
+                   .main img{
+                       width: 300px;
+                       height: 150px;
+                       position: absolute;
+                       top: 1050px;
+                       left: 230px;
+                       
+                   }
+               }
+               .main2 img{
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                top: 713px;
+                left: 670px;
+            }
+            @media(max-width:600px){
+                .main2 img {
+                    position:absolute;
+                    top: 1205px;
+                    left: 230px;
+                    width: 20px;
+                    height: 20px;
+                }   
+                }
+                .main a{
+                    text-decoration: none;
+                    color: black;
+                }
+            .main b{
+                font-size: 12px;
+                position: absolute;
+                top: 725px;
+                left: 700px;
+             
+            }
+            @media(max-width:600px){
+                .main b {
+                    position:absolute;
+                    top: 1210px;
+                    left: 260px;
+                    font-size: 10px;   
+                }
+            }
+            .main p{
+                font-size: 11px;
+                position: absolute;
+                color: #747373;
+                top: 748px;
+                left: 700px;
+             }
+             @media(max-width:600px){
+                .main p {
+                            position:absolute;
+                            top: 1240px;
+                            left: 260px;
+                            font-size: 9px;
+                        
+                            
+                        }
+                    }
+                    .main3{
+                        width: 40px;
+                        height: 40px ;
+                        border-radius: 55%;
+                        background-color:rgb(250, 247, 247);
+                        position: absolute;
+                        left: 1000px;
+                        top: 715px;
+                    
+                    }
+                    .main3 img{
+                        height: 30px;
+                        width: 30px;
+                        position: absolute;
+                        left: 3px;
+                        top: 7px;
+                    }
+                    .main3:hover{
+                        background-color: #E5E5E5;
+                    }
+                    @media(max-width:600px){
+                        .main3 {
+                            position:absolute;
+                            top: 1205px;
+                            left: 500px;
+                            font-size: 11px;
+                            height: 35px;
+                            width: 35px;    
+                        }
+                    }  
+                    @media(max-width:600px){
+                        .main3 img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                        
+                        }
+                        .para img{
+                            width: 380px;
+                           height: 240px;
+                           position: absolute;
+                           bottom: 5px;
+                           left: 1100px;
+                           box-shadow:  1px 1px 1px rgb(178, 178, 178);
+                       }
+                       @media(max-width:600px)
+                       {
+                           .para img{
+                               width: 300px;
+                               height: 180px;
+                               position: absolute;
+                               top: 1270px;
+                               left: 230px;
+                               
+                           }
+                        }
+                        .para1 img{
+                            height: 30px;
+                            width: 30px;
+                            position: absolute;
+                            top: 725px;
+                            left: 1100px;
+                        }
+                        @media(max-width:600px){
+                            .para1 img {
+                                position:absolute;
+                                top: 1455px;
+                                left: 230px;
+                                width: 20px;
+                                height: 20px;
+                            }   
+                        }
+                        .para a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                        .para b{
+                            font-size: 12px;
+                            position: absolute;
+                            top: 725px;
+                            left: 1150px;
+                         
+                        }
+                        @media(max-width:600px){
+                            .para b {
+                                position:absolute;
+                                top: 1460px;
+                                left: 260px;
+                                font-size: 10px;   
+                            }
+                        }
+                        .para p{
+                            font-size: 11px;
+                            position: absolute;
+                            color: #747373;
+                            top: 750px;
+                            left: 1150px;
+                         }
+                         @media(max-width:600px){
+                            .para p {
+                                        position:absolute;
+                                        top: 1480px;
+                                        left: 260px;
+                                        font-size: 9px;
+                                    
+                                        
+                                    }
+                                }
+                                .para2{
+                                    width: 40px;
+                                    height: 40px ;
+                                    border-radius: 55%;
+                                    background-color:rgb(250, 247, 247);
+                                    position: absolute;
+                                    left: 1440px;
+                                    top: 727px;
+                                
+                                }
+                                .para2 img{
+                                    height: 30px;
+                                    width: 30px;
+                                    position: absolute;
+                                    left: 3px;
+                                    top: 7px;
+                                }
+                                .para2:hover{
+                                    background-color: #E5E5E5;
+                                }
+                                @media(max-width:600px){
+                                    .para2 {
+                                        position:absolute;
+                                        top: 1450px;
+                                        left: 500px;
+                                        font-size: 11px;
+                                        height: 35px;
+                                        width: 35px;    
+                                    }
+                                }  
+                                @media(max-width:600px){
+                                    .para2 img{
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                    
+                                    }
+                                    .livd{
+                                        position: absolute;
+
+                                        top: 800px;
+                                        left: 250px;
+                                    }
+                                   .livd img{
+                                    position: relative;
+                                    top: 15px;
+                                    width: 50px;
+                                    height: 50px;
+                                   }
+                                   @media(max-width:600px){
+                                    .livd{
+                                        position: absolute;
+                                        top: 1530px;
+                                        left: 200px;
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+                                   @media(max-width:600px){
+                                    .livd img{
+                                        width: 40px;
+                                        height: 40px;
+                                    }
+                                }
+                            
+                                .livd b{
+                                    
+                                    font-size: 18px;
+                                }
+                                @media(max-width:600px){
+                                    .livd b{
+                                        position: absolute;
+                                        top: 30px;
+                                        left: 50px;
+                                        font-size: 14px;
+                                       
+                                    }
+                                }
+                                .short1{
+                                    position: absolute;
+                                    top: 900px;
+                                    left: 250px;
+                                }
+                                .short1 img{
+                                    width: 200px;
+                                    height: 400px;
+                                }
+                                @media(max-width:600px){
+                                    .short1{
+                                        position: absolute;
+                                        top: 1620px;
+                                        left: 250px;
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+                                   @media(max-width:600px){
+                                    .short1 img{
+                                        width: 180px;
+                                        height: 300px;
+                                    }
+                                }
+                                .short1 a{
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                                .short1 b{
+                                    font-size: 12px;
+                                    position: absolute;
+                                    top: 410px;
+                                    left: 00px;
+                                 
+                                }
+                                @media(max-width:600px){
+                                    .short1 b {
+                                        position:absolute;
+                                        top: 300px;
+                                        left: 0px;
+                                        font-size: 10px;   
+                                    }
+                                }
+                                .short1 p{
+                                    font-size: 11px;
+                                    position: absolute;
+                                    color: #747373;
+                                    top: 450px;
+                                    left: 0px;
+                                 }
+                                 @media(max-width:600px){
+                                    .short1 p {
+                                                position:absolute;
+                                                top: 328px;
+                                                left: 80px;
+                                                font-size: 9px;
+                                    }       
+                                    }     
+                                    .sho{
+                                        width: 40px;
+                                        height: 40px ;
+                                        border-radius: 55%;
+                                        background-color:rgb(246, 241, 241);
+                                        position: absolute;
+                                        left: 400px;
+                                        top: 1300px;
+                                    
+                                    }
+                                    .sho img{
+                                        height: 30px;
+                                        width: 30px;
+                                        position: absolute;
+                                        left: 3px;
+                                        top: 7px;
+                                    }
+                                    .para2:hover{
+                                        background-color: #E5E5E5;
+                                    }
+                                    @media(max-width:600px){
+                                        .sho {
+                                            position:absolute;
+                                            top: 1930px;
+                                            left: 400px;
+                                            font-size: 11px;
+                                            height: 35px;
+                                            width: 35px;    
+                                        }
+                                    }  
+                                    @media(max-width:600px){
+                                        .sho img{
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        
+                                        }   
+                                         .short2{
+                                            position: absolute;
+                                            top: 880px;
+                                            left: 500px;
+                                        }
+                                        .short2 img{
+                                            width: 200px;
+                                            height: 420px;
+                                        }
+                                        @media(max-width:600px){
+                                            .short2{
+                                                position: absolute;
+                                                top: 2000px;
+                                                left: 250px;
+                                                width: 20px;
+                                                height: 20px;
+                                            }
+                                        }
+                                           @media(max-width:600px){
+                                            .short2 img{
+                                                width: 180px;
+                                                height: 300px;
+                                            }
+                                        }
+                                        .short2 a{
+                                            text-decoration: none;
+                                            color: black;
+                                        }
+                                        .short2 b{
+                                            font-size: 12px;
+                                            position: absolute;
+                                            top: 430px;
+                                            left: 0px;
+                                         
+                                        }
+                                        @media(max-width:600px){
+                                            .short2 b {
+                                                position:absolute;
+                                                top: 300px;
+                                                left: 0px;
+                                                font-size: 10px;   
+                                            }
+                                        }
+                                        .short2 p{
+                                            font-size: 11px;
+                                            position: absolute;
+                                            color: #747373;
+                                            top: 470px;
+                                            left: 0px;
+                                         }
+                                         @media(max-width:600px){
+                                            .short2 p {
+                                                        position:absolute;
+                                                        top: 327px;
+                                                        left: 110px;
+                                                        font-size: 9px;
+                                            }       
+                                            }     
+                                            .sho1{
+                                                width: 40px;
+                                                height: 40px ;
+                                                border-radius: 55%;
+                                                background-color:rgb(254, 252, 252);
+                                                position: absolute;
+                                                left: 170px;
+                                                top: 430px;
+                                            
+                                            }
+                                            .sho1 img{
+                                                height: 30px;
+                                                width: 30px;
+                                                position: absolute;
+                                                left: 3px;
+                                                top: 7px;
+                                            }
+                                            .sho1:hover{
+                                                background-color: #E5E5E5;
+                                            }
+                                            @media(max-width:600px){
+                                                .sho1 {
+                                                    position: relative;
+                                                    top: 00px;
+                                                    left: 150px;
+                                                    height: 30px;
+                                                    width: 30px;
+
+                                                   
+                                                }
+                                            }  
+                                            @media(max-width:600px){
+                                                .sho1 img{
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                
+                                                }   
+                                                .short3{
+                                                    position: absolute;
+                                                    top: 0px;
+                                                    left: 250px;
+                                                }
+                                                .short3 img{
+                                                    width: 200px;
+                                                    height: 420px;
+                                                }
+                                                @media(max-width:600px){
+                                                    .short3{
+                                                        position: absolute;
+                                                        top: 400px;
+                                                        left: 0px;
+                                                        width: 20px;
+                                                        height: 20px;
+                                                    }
+                                                }
+                                                   @media(max-width:600px){
+                                                    .short3 img{
+                                                        width: 180px;
+                                                        height: 300px;
+                                                    }
+                                                }
+                                                .short3 a{
+                                                    text-decoration: none;
+                                                    color: black;
+                                                }
+                                                .short3 b{
+                                                    font-size: 12px;
+                                                    position: absolute;
+                                                    top: 430px;
+                                                    left: 0px;
+                                                 
+                                                }
+                                                @media(max-width:600px){
+                                                    .short3 b {
+                                                        position:absolute;
+                                                        top: 300px;
+                                                        left: 10px;
+                                                        font-size: 10px;   
+                                                    }
+                                                }
+                                                .short3 p{
+                                                    font-size: 11px;
+                                                    position: absolute;
+                                                    color: #747373;
+                                                    top: 460px;
+                                                    left: 0px;
+                                                 }
+                                                 @media(max-width:600px){
+                                                    .short3 p {
+                                                                position: absolute;
+                                                                top: 334px;
+                                                                left: 70px;
+                                                    }       
+                                                    }     
+                                                    .sho3{
+                                                        width: 40px;
+                                                        height: 40px ;
+                                                        border-radius: 55%;
+                                                        background-color:rgb(250, 248, 248);
+                                                        position: absolute;
+                                                        left: 410px;
+                                                        top: 430px;
+                                                    
+                                                    }
+                                                    .sho3 img{
+                                                        height: 30px;
+                                                        width: 30px;
+                                                        position: absolute;
+                                                        left: 3px;
+                                                        top: 7px;
+                                                    }
+                                                    .sho3:hover{
+                                                        background-color: #E5E5E5;
+                                                    }
+                                                    @media(max-width:600px){
+                                                        .sho3 {
+                                                            position: relative;
+                                                            top: 370px;
+                                                            left: 150px;
+                                                            height: 30px;
+                                                            width: 30px;
+        
+                                                           
+                                                        }
+                                                    }  
+                                                    @media(max-width:600px){
+                                                        .sho3 img{
+                                                            width: 20px;
+                                                            height: 20px;
+                                                        }
+                                                        
+                                                        }   
+                                                        .short4{
+                                                            position: absolute;
+                                                            top: 0px;
+                                                            left: 500px;
+                                                        }
+                                                        .short4 img{
+                                                            width: 200px;
+                                                            height: 420px;
+                                                        }
+                                                        @media(max-width:600px){
+                                                            .short4{
+                                                                position: absolute;
+                                                                top: 800px;
+                                                                left: 0px;
+                                                                width: 20px;
+                                                                height: 20px;
+                                                            }
+                                                        }
+                                                           @media(max-width:600px){
+                                                            .short4 img{
+                                                                width: 180px;
+                                                                height: 300px;
+                                                            }
+                                                        }
+                                                        .short4 a{
+                                                            text-decoration: none;
+                                                            color: black;
+                                                        }
+                                                        .short4 b{
+                                                            font-size: 12px;
+                                                            position: absolute;
+                                                            top: 430px;
+                                                            left: 0px;
+                                                         
+                                                        }
+                                                        @media(max-width:600px){
+                                                            .short4 b {
+                                                                position:absolute;
+                                                                top: 320px;
+                                                                left: 10px;
+                                                                font-size: 10px;   
+                                                            }
+                                                        }
+                                                        .short4 p{
+                                                            font-size: 11px;
+                                                            position: absolute;
+                                                            color: #747373;
+                                                            top: 475px;
+                                                            left: 0px;
+                                                         }
+                                                         @media(max-width:600px){
+                                                            .short4 p {
+                                                                        position:absolute;
+                                                                        top: 380px;
+                                                                        left: 70px;
+                                                                        font-size: 9px;
+                                                            }       
+                                                            }     
+                                                            .sho4{
+                                                                width: 40px;
+                                                                height: 40px ;
+                                                                border-radius: 55%;
+                                                                background-color:rgb(252, 251, 251);
+                                                                position: absolute;
+                                                                left: 680px;
+                                                                top: 430px;
+                                                            
+                                                            }
+                                                            .sho4 img{
+                                                                height: 30px;
+                                                                width: 30px;
+                                                                position: absolute;
+                                                                left: 3px;
+                                                                top: 7px;
+                                                            }
+                                                            .sho4:hover{
+                                                                background-color: #E5E5E5;
+                                                            }
+                                                            @media(max-width:600px){
+                                                                .sho4 {
+                                                                    position: relative;
+                                                                    top: 750px;
+                                                                    left: 150px;
+                                                                    height: 30px;
+                                                                    width: 30px;
+                
+                                                                   
+                                                                }
+                                                            }  
+                                                            @media(max-width:600px){
+                                                                .sho4 img{
+                                                                    width: 20px;
+                                                                    height: 20px;
+                                                                }
+                                                                
+                                                                }   
+                                                                .short5{
+                                                                    position: absolute;
+                                                                    bottom:1px;
+                                                                    left: 750px;
+                                                                }
+                                                                .short5 img{
+                                                                    width: 200px;
+                                                                    height: 470px;
+                                                                }
+                                                                @media(max-width:600px){
+                                                                    .short5{
+                                                                        position: absolute;
+                                                                        top: 1200px;
+                                                                        left: 0px;
+                                                                        width: 20px;
+                                                                        height: 20px;
+                                                                    }
+                                                                }
+                                                                   @media(max-width:600px){
+                                                                    .short5 img{
+                                                                        width: 180px;
+                                                                        height: 300px;
+                                                                    }
+                                                                }
+                                                                .short5 a{
+                                                                    text-decoration: none;
+                                                                    color: black;
+                                                                }
+                                                                .short5 b{
+                                                                    font-size: 12px;
+                                                                    position: absolute;
+                                                                    top: 480px;
+                                                                    left: 0px;
+                                                                 
+                                                                }
+                                                                @media(max-width:600px){
+                                                                    .short5 b {
+                                                                        position:absolute;
+                                                                        top: 320px;
+                                                                        left: 10px;
+                                                                        font-size: 10px;   
+                                                                    }
+                                                                }
+                                                                .short5 p{
+                                                                    font-size: 11px;
+                                                                    position: absolute;
+                                                                    color: #747373;
+                                                                    top: 520px;
+                                                                    left: 0px;
+                                                                 }
+                                                                 @media(max-width:600px){
+                                                                    .short5 p {
+                                                                                position:absolute;
+                                                                                top: 350px;
+                                                                                left: 70px;
+                                                                                font-size: 9px;
+                                                                    }       
+                                                                    }     
+                                                                    .sho5{
+                                                                        width: 40px;
+                                                                        height: 40px ;
+                                                                        border-radius: 55%;
+                                                                        background-color:rgb(255, 254, 254);
+                                                                        position: absolute;
+                                                                        left: 940px;
+                                                                        top: 430px;
+                                                                    
+                                                                    }
+                                                                    .sho5 img{
+                                                                        height: 30px;
+                                                                        width: 30px;
+                                                                        position: absolute;
+                                                                        left: 3px;
+                                                                        top: 7px;
+                                                                    }
+                                                                    .sho5:hover{
+                                                                        background-color: #E5E5E5;
+                                                                    }
+                                                                    @media(max-width:600px){
+                                                                        .sho5 {
+                                                                            position: relative;
+                                                                            top: 1110px;
+                                                                            left: 150px;
+                                                                            height: 30px;
+                                                                            width: 30px;
+                        
+                                                                           
+                                                                        }
+                                                                    }  
+                                                                    @media(max-width:600px){
+                                                                        .sho5 img{
+                                                                            width: 20px;
+                                                                            height: 20px;
+                                                                        }
+                                                                        
+                                                                        } 
+                                                                        footer{
+                                                                        
+                                                                            background-color: rgb(248, 246, 246);
+                                                                            position: relative;
+                                                                            bottom: 4px;
+                                                                            
+                                                                        
+                                                                        } 
+                                                                        footer b{
+                                                                            position: relative;
+                                                                            left: 200px;
+                                                                        } 
+                                                                        @media(max-width:600px){
+                                                                            footer{
+                                                                                width: 30px;
+                                                                                height: 40px;
+                                                                                position: relative;
+                                                                                right: 180px;
+                                                                                box-shadow:1px 1px 1px rgb(178, 178, 178);
+                                                                            }
+
+                                                                        }
+                                                                        @media(max-width:600px){
+                                                                            footer b{
+                                                                                font-size: 9px;
+                                                                                position: relative;
+                                                                                right: 20px;
+                                                                            }
+                                                                        }
+                        
+                
+                
+                        
+                        
+                        
+                            
+                                
+                
+                
+                
+                
+                    
+                        
+                
+        
+        
+                
+                
+                
+                    
+                        
+        
+        
+        
+        
+            
+                
+        
+        
+                
+                
+                
+                    
+                        
+        
+        
+        
+        
+            
+                
+        
+
+
+        
+        
+        
+            
+                
+
+
+
+
+    
+        
